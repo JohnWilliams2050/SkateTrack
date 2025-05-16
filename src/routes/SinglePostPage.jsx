@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import Image from "../Components/Image";
+import Comments from "../Components/Comments";
 
 const SinglePostPage = () => {
   return (
@@ -40,6 +41,7 @@ const SinglePostPage = () => {
         <div className="flex gap-2">
         </div>
       </div>
+      <Comments/>
     </div>
   );
 };
