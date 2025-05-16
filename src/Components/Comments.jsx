@@ -1,4 +1,4 @@
-import { Comment } from "./Comment"
+import Comment from "./Comment"
 
 const Comments = () => {
   return (
@@ -8,7 +8,6 @@ const Comments = () => {
             <textarea placeholder="Write a comment..." className="w-full p-4 rounded-xl" />
             <button className="bg-blue-800 px-4 py-3 text-white fondt-medium rounded-xl">Sends</button>
         </div>
-        <Comment/>
         <Comment/>
         <Comment/>
         <Comment/>
