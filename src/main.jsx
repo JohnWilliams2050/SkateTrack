@@ -46,6 +46,10 @@ const router = createBrowserRouter([
         path: "/register",
         element: <RegisterPage />,
       },
+      {
+        path: "/clubs",
+        element: <ClubsPage />,
+      },
     ]
   }
 ]);
