@@ -10,6 +10,7 @@ import LoginPage from './routes/LoginPage';
 import RegisterPage from './routes/RegisterPage';
 import MainLayout from './layouts/MainLayout';
 import { ClerkProvider } from '@clerk/clerk-react';
+import ClubsPage from './routes/ClubsPage';
 
 const PUBLISHABLE_KEY = import.meta.env.VITE_CLERK_PUBLISHABLE_KEY
 
