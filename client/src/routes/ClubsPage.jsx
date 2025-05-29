@@ -18,7 +18,7 @@ const center = {
 
 const ClubsPage = () => {
   const { isLoaded } = useJsApiLoader({
-    googleMapsApiKey: 'AIzaSyCGLqSk0WRgbC9zZBIuyfzFaS9423Gedyw'
+    googleMapsApiKey: 'API KEY'
   });
 
   if (!isLoaded) return <div>Cargando mapa...</div>;
