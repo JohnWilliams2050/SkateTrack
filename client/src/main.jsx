@@ -17,6 +17,8 @@ import {
 } from '@tanstack/react-query';
 import {ToastContainer} from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import MakeActivity from './routes/makeActivity';
+import ActivitiesPage from './routes/ActivitiesPage';
 
 const queryClient = new QueryClient();
 
@@ -58,8 +60,16 @@ const router = createBrowserRouter([
         path: "/clubs",
         element: <ClubsPage />,
       },
-    ]
-  }
+      {
+        path: "/new-activity",
+        element: <MakeActivity />,
+      },
+      {
+        path: "/activities",
+        element: <ActivitiesPage />,        
+      }
+    ],
+  },
 ]);
 
 createRoot(document.getElementById('root')).render(

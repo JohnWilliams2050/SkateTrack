@@ -41,4 +41,4 @@ const ClubsPage = () => {
   );
 };
 
-export default ClubsPage
+export default ClubsPage;
