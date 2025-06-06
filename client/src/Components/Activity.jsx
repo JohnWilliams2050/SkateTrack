@@ -40,7 +40,7 @@ const Activity = ({activity}) => {
                     <APIProvider apiKey='AIzaSyCGLqSk0WRgbC9zZBIuyfzFaS9423Gedyw'>
                         <Map 
                             center={position}
-                            zoom={12}
+                            zoom={11}
                             options={{
                                 gestureHandling: "auto",
                                 zoomControl: true,
